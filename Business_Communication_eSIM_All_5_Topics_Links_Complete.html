@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MMLB123 Interactive Business Communication</title>
+<style>
+:root{--ink:#172033;--muted:#5d687b;--brand:#1e4f91;--soft:#edf4fc;--line:#d9e1ec;--good:#176b42;--bad:#a52a2a}
+*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:var(--ink);font:16px/1.55 Arial,Helvetica,sans-serif}
+header{background:linear-gradient(120deg,#14345e,#2768a8);color:white;padding:34px 20px}
+header .wrap,main{max-width:960px;margin:auto}h1{margin:0 0 8px;font-size:clamp(1.8rem,4vw,2.6rem)}header p{max-width:760px;margin:0;color:#e8f1ff}
+main{padding:22px 16px 48px}.panel{background:white;border:1px solid var(--line);border-radius:14px;padding:22px;margin:0 0 18px;box-shadow:0 3px 12px #142d4b0b}
+h2{margin:0 0 12px;font-size:1.35rem}h3{margin:16px 0 6px;font-size:1.05rem}.tag{display:inline-block;background:var(--soft);color:var(--brand);padding:4px 9px;border-radius:20px;font-size:.85rem;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.topic{background:#f8faff;border:1px solid var(--line);border-radius:10px;padding:14px}
+label{display:block;font-weight:bold;margin-bottom:6px}input[type=text]{width:100%;max-width:420px;padding:11px;border:1px solid #aebbd0;border-radius:8px;font:inherit}
+button{border:0;border-radius:9px;background:var(--brand);color:white;padding:11px 16px;font:inherit;font-weight:bold;cursor:pointer}button.secondary{background:#e8eef7;color:#203d64}button:disabled{opacity:.55;cursor:not-allowed}
+.question{padding:16px 0;border-top:1px solid var(--line)}.question:first-of-type{border-top:0}.question p{font-weight:bold;margin:0 0 9px}.option{display:flex;gap:9px;align-items:flex-start;margin:7px 0;font-weight:normal}.option input{margin-top:5px}
+.feedback{font-size:.93rem;margin-top:8px;color:var(--muted)}.correct{color:var(--good);font-weight:bold}.incorrect{color:var(--bad);font-weight:bold}
+#result{padding:15px;border-radius:10px;background:#f1f5fb;margin-top:15px;display:none}#status{margin-top:12px;font-weight:bold}.small{color:var(--muted);font-size:.92rem}.progress{height:8px;background:#e4eaf2;border-radius:8px;overflow:hidden;margin:12px 0}.progress span{display:block;height:100%;width:0;background:#4384c6}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:16px}
+.resource-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.resource-button{display:inline-block;text-decoration:none;border-radius:8px;background:var(--brand);color:#fff;padding:9px 13px;font-weight:bold;font-size:.92rem}
+.resource-button:hover{filter:brightness(.92)}
+.resource-button.pending{background:#e8eef7;color:#5d687b;border:1px dashed #aebbd0;cursor:default}
+
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<span class="tag">MMLB123 · Communication for Business</span>
+<h1>Interactive Business Communication</h1>
+<p>Online learning notes and knowledge check. Work through the five topics and open the linked slides and videos. Resource links for Topics 2–5 still need to be added. Then complete the 10-question quiz and review your feedback.</p>
+</div></header>
+<main>
+<section class="panel">
+<h2>Learning outcomes</h2>
+<p>By the end of this learning session, you should be able to explain the business communication process, identify effective communication skills, recognise common barriers, and select appropriate digital communication tools for workplace situations.</p>
+<div class="grid">
+<div class="topic"><h3>1. Overview of Business Communication</h3><p>Business communication is the exchange of information inside or outside an organisation to achieve work-related goals. It supports coordination, decision-making, relationships and performance.</p><div class="resource-links"><a class="resource-button" href="https://notebooklm.link.google/AEmRZ8gMgbaw" target="_blank" rel="noopener noreferrer">View Slides</a><a class="resource-button" href="https://youtu.be/aCcbKDYgoJo" target="_blank" rel="noopener noreferrer">Watch Video</a></div></div>
+<div class="topic"><h3>2. Communication Process</h3><p>The sender develops an idea, encodes a message, chooses a channel and sends it. The receiver interprets it and may provide feedback. Noise or interference can affect any stage.</p><div class="resource-links"><a class="resource-button" href="https://notebooklm.link.google/hLc4gvrB94wl" target="_blank" rel="noopener noreferrer">View Slides</a><a class="resource-button" href="https://youtu.be/fXvJKs2ZTA8" target="_blank" rel="noopener noreferrer">Watch Video</a></div></div>
+<div class="topic"><h3>3. Effective Communication Skills</h3><p>Use clear language, active listening, suitable tone, empathy, concise messages and feedback. Adapt your wording and channel to the audience and purpose.</p><div class="resource-links"><a class="resource-button" href="https://notebooklm.link.google/5mkC5FNTD4ck" target="_blank" rel="noopener noreferrer">View Slides</a><a class="resource-button" href="https://youtu.be/IDTWx34u52Q" target="_blank" rel="noopener noreferrer">Watch Video</a></div></div>
+<div class="topic"><h3>4. Barriers to Communication</h3><p>Common barriers include unclear wording, jargon, language differences, assumptions, emotional reactions, poor listening, cultural differences and technical problems. Check understanding and invite questions.</p><div class="resource-links"><a class="resource-button" href="https://notebooklm.link.google/g9fmhVDRfIYk" target="_blank" rel="noopener noreferrer">View Slides</a><a class="resource-button" href="https://youtu.be/zoCbjGDf5SU" target="_blank" rel="noopener noreferrer">Watch Video</a></div></div>
+<div class="topic"><h3>5. Digital Communication Tools</h3><p>Email suits formal, traceable messages; instant messaging suits brief coordination; video meetings support discussion; shared documents support collaboration. Consider urgency, confidentiality, audience and record-keeping.</p><div class="resource-links"><a class="resource-button" href="https://notebooklm.link.google/dH6WFHasvAG4" target="_blank" rel="noopener noreferrer">View Slides</a><a class="resource-button" href="https://youtu.be/HuoJje0yYWQ" target="_blank" rel="noopener noreferrer">Watch Video</a></div></div>
+</div>
+</section>
+<section class="panel">
+<h2>Quick application: choose the channel</h2>
+<p><strong>Scenario:</strong> You need to discuss a sensitive performance issue with a colleague and allow time for questions.</p>
+<p><strong>Suggested approach:</strong> Arrange a private face-to-face or video conversation. A short message can arrange the meeting, but avoid discussing sensitive details in a public group chat. Follow up in writing only when appropriate.</p>
+<p class="small">Teaching prompt: What could go wrong if the same issue were sent to a large group chat? Consider privacy, tone and interpretation.</p>
+</section>
+<section class="panel">
+<h2>Knowledge check</h2>
+<p>Enter your Student ID, answer all 10 questions, and select <strong>Mark quiz</strong>. Your score is calculated in this page.</p>
+<label for="studentId">Student ID</label>
+<input id="studentId" type="text" autocomplete="off" maxlength="40" placeholder="Enter your Student ID">
+<div class="progress"><span id="progressBar"></span></div>
+<form id="quiz">
+<div class="question"><p>1. What is a central purpose of business communication?</p>
+<label class="option"><input type="radio" name="q1" value="a"> To exchange work-related information and support organisational goals</label>
+<label class="option"><input type="radio" name="q1" value="b"> To eliminate the need for planning</label>
+<label class="option"><input type="radio" name="q1" value="c"> To ensure every message is informal</label>
+<label class="option"><input type="radio" name="q1" value="d"> To prevent employees from asking questions</label><div class="feedback" id="f1"></div></div>
+<div class="question"><p>2. In the communication process, encoding means:</p>
+<label class="option"><input type="radio" name="q2" value="a"> Receiving feedback after a message</label>
+<label class="option"><input type="radio" name="q2" value="b"> Turning an idea into words, symbols or signals</label>
+<label class="option"><input type="radio" name="q2" value="c"> Interrupting the sender</label>
+<label class="option"><input type="radio" name="q2" value="d"> Selecting a response after communication ends</label><div class="feedback" id="f2"></div></div>
+<div class="question"><p>3. Which action best demonstrates active listening?</p>
+<label class="option"><input type="radio" name="q3" value="a"> Preparing your reply while the other person speaks</label>
+<label class="option"><input type="radio" name="q3" value="b"> Looking at your phone throughout the conversation</label>
+<label class="option"><input type="radio" name="q3" value="c"> Paying attention and paraphrasing to check understanding</label>
+<label class="option"><input type="radio" name="q3" value="d"> Assuming you already know what the speaker means</label><div class="feedback" id="f3"></div></div>
+<div class="question"><p>4. Which is an example of communication noise?</p>
+<label class="option"><input type="radio" name="q4" value="a"> A clear summary</label>
+<label class="option"><input type="radio" name="q4" value="b"> Feedback confirming understanding</label>
+<label class="option"><input type="radio" name="q4" value="c"> A suitable communication channel</label>
+<label class="option"><input type="radio" name="q4" value="d"> Background construction sounds that make a message hard to hear</label><div class="feedback" id="f4"></div></div>
+<div class="question"><p>5. A colleague does not understand a technical acronym. This is most directly a:</p>
+<label class="option"><input type="radio" name="q5" value="a"> Semantic or language barrier</label>
+<label class="option"><input type="radio" name="q5" value="b"> Successful feedback loop</label>
+<label class="option"><input type="radio" name="q5" value="c"> Physical improvement to the channel</label>
+<label class="option"><input type="radio" name="q5" value="d"> Sign that the message needs more jargon</label><div class="feedback" id="f5"></div></div>
+<div class="question"><p>6. What is usually the best way to improve an unclear instruction?</p>
+<label class="option"><input type="radio" name="q6" value="a"> Add more unrelated detail</label>
+<label class="option"><input type="radio" name="q6" value="b"> State the action, deadline and expected result clearly</label>
+<label class="option"><input type="radio" name="q6" value="c"> Send it repeatedly without changes</label>
+<label class="option"><input type="radio" name="q6" value="d"> Use abbreviations the reader may not know</label><div class="feedback" id="f6"></div></div>
+<div class="question"><p>7. Which channel is generally appropriate for a formal message that needs a written record?</p>
+<label class="option"><input type="radio" name="q7" value="a"> An unrecorded hallway conversation only</label>
+<label class="option"><input type="radio" name="q7" value="b"> A public social media comment</label>
+<label class="option"><input type="radio" name="q7" value="c"> Email to the relevant recipients</label>
+<label class="option"><input type="radio" name="q7" value="d"> An unrelated group chat</label><div class="feedback" id="f7"></div></div>
+<div class="question"><p>8. Before sending confidential workplace information digitally, you should:</p>
+<label class="option"><input type="radio" name="q8" value="a"> Send it to the widest possible audience</label>
+<label class="option"><input type="radio" name="q8" value="b"> Post it in an open channel</label>
+<label class="option"><input type="radio" name="q8" value="c"> Remove all context so nobody can understand it</label>
+<label class="option"><input type="radio" name="q8" value="d"> Check recipients, permissions and the suitability of the channel</label><div class="feedback" id="f8"></div></div>
+<div class="question"><p>9. Why is feedback important in communication?</p>
+<label class="option"><input type="radio" name="q9" value="a"> It helps the sender assess whether the message was understood</label>
+<label class="option"><input type="radio" name="q9" value="b"> It always guarantees agreement</label>
+<label class="option"><input type="radio" name="q9" value="c"> It removes the need to listen</label>
+<label class="option"><input type="radio" name="q9" value="d"> It prevents the receiver from responding</label><div class="feedback" id="f9"></div></div>
+<div class="question"><p>10. Which approach best adapts communication to the audience?</p>
+<label class="option"><input type="radio" name="q10" value="a"> Use the same technical language with everyone</label>
+<label class="option"><input type="radio" name="q10" value="b"> Consider the audience's needs, knowledge and purpose</label>
+<label class="option"><input type="radio" name="q10" value="c"> Avoid checking whether the message is suitable</label>
+<label class="option"><input type="radio" name="q10" value="d"> Choose a channel only because it is convenient for the sender</label><div class="feedback" id="f10"></div></div>
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px"><button type="submit">Mark quiz</button><button class="secondary" type="button" id="reset">Try again</button></div>
+</form>
+<div id="result" aria-live="polite"></div>
+<div id="status" aria-live="polite"></div>
+<p class="small">Google Sheets submission is configured for the provided UNITEN Apps Script endpoint. Depending on organisation sign-in and browser security settings, a submission may require troubleshooting. Verify the test row in the Sheet.</p>
+</section>
+<section class="panel"><h2>Reflection</h2><p>Before finishing, think of one workplace message you have recently sent or received. Was the purpose clear? Was the channel appropriate? What feedback would help confirm understanding?</p><p><strong>Key takeaway:</strong> Effective business communication is purposeful, audience-centred, clear and supported by feedback.</p></section>
+</main>
+<footer>MMLB123 · Communication for Business · Interactive learning resource</footer>
+<script>
+const answers={q1:"a",q2:"b",q3:"c",q4:"d",q5:"a",q6:"b",q7:"c",q8:"d",q9:"a",q10:"b"};
+const explanations={
+q1:"Business communication exchanges information to coordinate work and support organisational objectives.",
+q2:"Encoding converts an idea into a message using words, symbols or other signals.",
+q3:"Active listening means focusing on the speaker and checking your interpretation.",
+q4:"Noise is anything that interferes with a message; construction sounds can prevent the receiver hearing it.",
+q5:"Unfamiliar acronyms can create a semantic barrier because sender and receiver may interpret terms differently.",
+q6:"Clear instructions identify the required action, timing and expected outcome.",
+q7:"Email can provide a written record and is often suitable for formal workplace messages.",
+q8:"Confidentiality requires checking who can access the information and whether the channel is suitable.",
+q9:"Feedback helps the sender determine whether the receiver understood the message.",
+q10:"Audience-centred communication adjusts content, language and channel to the receiver and purpose."
+};
+const form=document.getElementById("quiz"), result=document.getElementById("result"), status=document.getElementById("status");
+form.addEventListener("change",()=>{const total=Object.keys(answers).filter(k=>form.querySelector('input[name="'+k+'"]:checked')).length;document.getElementById("progressBar").style.width=(total/10*100)+"%";});
+form.addEventListener("submit",async e=>{
+ e.preventDefault();
+ const studentId=document.getElementById("studentId").value.trim();
+ if(!studentId){status.textContent="Please enter your Student ID before marking the quiz.";document.getElementById("studentId").focus();return;}
+ let score=0;
+ for(const [q,answer] of Object.entries(answers)){
+  const chosen=form.querySelector('input[name="'+q+'"]:checked');
+  const box=document.getElementById("f"+q.slice(1));
+  if(chosen&&chosen.value===answer){score++;box.innerHTML='<span class="correct">Correct.</span> '+explanations[q];}
+  else{box.innerHTML='<span class="incorrect">Review this answer.</span> '+explanations[q];}
+ }
+ const percentage=score*10;
+ result.style.display="block";result.innerHTML="<h3>Your score: "+score+" / 10 ("+percentage+"%)</h3><p>"+(score>=8?"Strong understanding.":score>=5?"Good start. Review the feedback for the questions you missed.":"Review the five topics and try again.")+"</p>";
+ status.textContent="Attempting to send your result to the MMLB123 Google Sheet…";
+ try{
+  await fetch("https://script.google.com/macros/s/AKfycbxvXkT-mrC0YwmQCWWwEP1-kWPsOuAXWCnGPPoD8pbOWNlW-ftXjQLCLUe83Ll426SN/exec",{
+   method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
+   body:JSON.stringify({studentId:studentId,score:score,percentage:percentage,module:"MMLB123"})
+  });
+  status.textContent="The submission request was sent, but this page cannot confirm that Google Sheets saved it. Please verify the row in your Sheet.";
+ }catch(err){status.textContent="The browser could not send the result. Check your UNITEN sign-in, deployment access and Apps Script Executions. Your score is shown above but may not be saved.";}
+ result.scrollIntoView({behavior:"smooth",block:"center"});
+});
+document.getElementById("reset").addEventListener("click",()=>{form.reset();for(let i=1;i<=10;i++)document.getElementById("f"+i).textContent="";result.style.display="none";status.textContent="";document.getElementById("progressBar").style.width="0%";window.scrollTo({top:document.querySelector("section.panel:nth-of-type(3)").offsetTop,behavior:"smooth"});});
+</script>
+</body></html>
